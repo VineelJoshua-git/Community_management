@@ -1,4 +1,43 @@
-button{
+.complaint-button{
     background-color: brown;
     color:white;
+    border:none;
+    border-radius: 5px;
+    height: 40px;
+    width: 130px;
+    cursor: pointer;
+    /*transition takes 2 values what you want to transition and for how long*/
+    transition: opacity 0.3s,box-shadow 0.15s;
+    /*box-shadow:horizontal vertical blur color*/
+}
+.contribute-button{
+    background-color: white;
+    border-color: rgb(70, 70, 203);
+    border-style: solid;
+    border-width: 1px;
+    color:blue;
+    height: 36px;
+    width: 130px;
+
+}
+
+/*the below is called a pseudo class*/
+/*.complaint-button:hover{
+    background-color: rgb(214, 85, 85);
+}*/
+
+.complaint-button:hover{
+    opacity: 0.5;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+
+
+}
+
+.complaint-button:active{
+    background-color:rgb(122, 21, 21);
+}
+.contribute-button:hover{
+      background-color:rgb(70, 70, 203);
+      color: white;
+
 }
