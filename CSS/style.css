@@ -6,8 +6,13 @@
     height: 40px;
     width: 130px;
     cursor: pointer;
+    /*outside the box*/
+    margin-left:20px;
+    padding-top: 3px;
+
     /*transition takes 2 values what you want to transition and for how long*/
     transition: opacity 0.3s,box-shadow 0.15s;
+
     /*box-shadow:horizontal vertical blur color*/
 }
 .contribute-button{
@@ -40,4 +45,8 @@
       background-color:rgb(70, 70, 203);
       color: white;
 
+}
+.community-para{
+    font-family: Arial;
+    font-size: 30px;
 }
